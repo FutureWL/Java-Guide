@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-guide-tips" />
         <module name="Java-Guide" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java-Guide" target="12" />
+      <module name="Java-Guide" target="1.8" />
+      <module name="java-guide-tips" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
